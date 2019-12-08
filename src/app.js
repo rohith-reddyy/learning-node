@@ -8,6 +8,7 @@ const climateInfo = require('./utils/forecast');
 
 //to call express method it retuns some values and methods to app
 const app = express();
+const port = process.env.PORT || 3000;
 
 // setting the path to our required directories
 const publicDirectoryPath = path.join(__dirname, '../public');
